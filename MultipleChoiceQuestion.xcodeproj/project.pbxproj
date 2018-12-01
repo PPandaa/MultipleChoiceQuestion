@@ -14,6 +14,7 @@
 		DB107A6A21AE37E900A6A086 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB107A6821AE37E900A6A086 /* LaunchScreen.storyboard */; };
 		DB107A7521AE37E900A6A086 /* MultipleChoiceQuestionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB107A7421AE37E900A6A086 /* MultipleChoiceQuestionTests.swift */; };
 		DB107A8021AE37E900A6A086 /* MultipleChoiceQuestionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB107A7F21AE37E900A6A086 /* MultipleChoiceQuestionUITests.swift */; };
+		DB107A8E21B26E0400A6A086 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB107A8D21B26E0400A6A086 /* QuestionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		DB107A7B21AE37E900A6A086 /* MultipleChoiceQuestionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipleChoiceQuestionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB107A7F21AE37E900A6A086 /* MultipleChoiceQuestionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleChoiceQuestionUITests.swift; sourceTree = "<group>"; };
 		DB107A8121AE37E900A6A086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB107A8D21B26E0400A6A086 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				DB107A5F21AE37E600A6A086 /* AppDelegate.swift */,
 				DB107A6121AE37E600A6A086 /* ViewController.swift */,
 				DB107A6321AE37E600A6A086 /* Main.storyboard */,
+				DB107A8D21B26E0400A6A086 /* QuestionViewController.swift */,
 				DB107A6621AE37E900A6A086 /* Assets.xcassets */,
 				DB107A6821AE37E900A6A086 /* LaunchScreen.storyboard */,
 				DB107A6B21AE37E900A6A086 /* Info.plist */,
@@ -258,6 +261,7 @@
 			files = (
 				DB107A6221AE37E600A6A086 /* ViewController.swift in Sources */,
 				DB107A6021AE37E600A6A086 /* AppDelegate.swift in Sources */,
+				DB107A8E21B26E0400A6A086 /* QuestionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
